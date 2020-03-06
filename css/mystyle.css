@@ -1,0 +1,9 @@
+.prettyprint ol.linenums > li {
+	list-style-type: decimal; 
+}
+.yohaku {
+	margin: 20px 0;
+}
+pre{
+	margin-bottom: 0;
+}
