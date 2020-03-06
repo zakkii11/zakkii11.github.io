@@ -1,8 +1,47 @@
 .prettyprint ol.linenums > li {
 	list-style-type: decimal; 
 }
-.yohaku {
+
+.h-yohaku-subtitle{
+    margin-bottom: 2px;
+}
+.h-yohaku-bottom{
+    margin-bottom: 35px;
+}
+.h-komidashi {
+	margin: 32px 0 12px;
+}
+
+.my-pagetitle{
+}
+
+.my-subheader{
+    font-family: goudy old style;
+    font-weight: 00;
+    margin-bottom: 2px;
+}
+.my-header{
+    font-family: ;
+    text-transform: none;
+    margin-bottom: 35px;   
+}
+
+
+
+
+
+
+.p-yohaku {
 	margin: 20px 0;
+}
+.yohaku-20 {
+	margin: 20px 0;
+}
+.yohaku-40 {
+	margin: 40px 0;
+}
+.yohaku-40-20 {
+	margin: 40px 0 20px;
 }
 pre{
 	margin-bottom: 0;
