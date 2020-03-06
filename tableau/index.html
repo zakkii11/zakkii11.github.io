@@ -1,7 +1,7 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -9,68 +9,74 @@
 
     <title>Tableau - eveRyday</title>
 
-      <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css">
     <link href="https://getbootstrap.com/docs/4.0/examples/narrow-jumbotron/narrow-jumbotron.css" rel="stylesheet">
- 
-  </head>
 
-  <body>
+</head>
+
+<body>
 
     <div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills float-right">
-            <li class="nav-item">
-              <a class="nav-link" href="/">Home</a>
-            </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Apps</a>
-                <div class="dropdown-menu" aria-labelledby="dropdown01">
-                  <a class="dropdown-item" href="/r/">R</a>
-                  <a class="dropdown-item active" href="/tableau/">Tableau <span class="sr-only">(current)</span></a>
+        <div class="header clearfix">
+            <nav>
+                <ul class="nav nav-pills float-right">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Apps</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdown01">
+                            <a class="dropdown-item" href="/r/">R</a>
+                            <a class="dropdown-item active" href="/tableau/">Tableau <span class="sr-only">(current)</span></a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+            <h3 class="text-muted">eveRyday</h3>
+        </div>
+
+
+        <div class="row marketing">
+            <div class="col-lg-12">
+
+
+                <h2 class="my-pagetitle">Tableau apps</h2>
+                <div style="margin: 48px 0 15px;">
+                    <img src="/img/tab.png" class="img-thumbnail" alt="Responsive image"><br>
                 </div>
-              </li>
-          </ul>
-        </nav>
-        <h3 class="text-muted">eveRyday</h3>
-      </div>
+                <h6 class="my-subheader">Simple Dashboard</h6>
+                <h3 class="my-header">COVID-19 in JPN @ Tableau</h3>
+                <p class="p-yohaku"> The Dashboard visualizes the situation with COVID-19 in Japan in Simple UI. It will help you understand the present in more easely and intuitive ways.</p>
+                <p class="p-yohaku"> For now, only the Japanese Dashboard is available. </p>
+                <p><a class="btn btn-lg btn-success" href="/tableau/covid/" role="button" target="_blank">Dashboard (JP)</a></p>
+                <h5 class="h-komidashi">Features</h5>
+                <ul>
+                    <li>Cases Mapping</li>
+                    <ul>
+                        <li>plotted by the Prefecture or Municipalities of the residental area.</li>
+                        <li>Filter function (by sex, status, the date the infection confirmed on)</li>
+                        <li>area-specific information</li>
+                    </ul>
+                    <li>Generational Breakdown</li>
+                    <li>The Change in the number of the new Cases.</li>
+                    <li>Status of the Cases.</li>
+                    <ul>
+                        <li>Active</li>
+                        <li>Dead</li>
+                        <li>Recovered</li>
+                    </ul>
+                </ul>
+                <h5 class="h-komidashi">Data Source</h5>
+                <p class="p-yohaku">The data of COVID-19 is retrieved from <a href="https://gis.jag-japan.com/covid19jp/" target="_blank">https://gis.jag-japan.com/covid19jp/</a>, which also provides an integrated dashboard with a rich visual interface.
 
-    
-      <div class="row marketing">
-        <div class="col-lg-12">
 
+                    
+            </div>
+        </div>
 
-          <h2>Tableau apps</h2>
-		<div style="margin: 48px 0 15px;">
-		  <img src="/img/tab.png" class="img-thumbnail" alt="Responsive image"><br>
-		</div>
-	<h6>Simple Dashboard</h6>
-          <h3>COVID-19 in JPN @ Tableau</h3>
-		<p> This Dashboard visualizes the situation with COVID-19 in Japan, with some features:</p>
-			<ul>
-				<li>Cases Mapping</li>
-					<ul>
-					<li>plotted by the Prefecture or Municipalities of the residental area.</li>
-					<li>Filter function (by sex, status, the date the infection confirmed on)</li>
-					<li>area-specific information</li>
-				</ul>
-				<li>Generational Breakdown</li>
-				<li>The Change in the number of the new Cases.</li>
-				<li>Status of the Cases.</li>
-				<ul>
-					<li>Active</li>
-					<li>Dead</li>
-					<li>Recovered</li>
-				</ul>
-			</ul>
-		<p> For now, only the Japanese Dashboard is available. <p>
-		  <p><a class="btn btn-lg btn-success" href="/tableau/covid/" role="button" target = "_blank">Dashboard (JP)</a></p>
-          </div>
-      </div>
-
-      <footer class="footer">
-        <p>&copy; zakkiiii 2020</p>
-      </footer>
+        <footer class="footer">
+            <p>&copy; zakkiiii 2020</p>
+        </footer>
 
     </div> <!-- /container -->
 
@@ -81,119 +87,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 
-  <script>/** JS：Area */
+    <script>
+        /** JS：Area */
+    </script>
+    <style>
+        /** CSS：Area */
+    </style>
+</body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</script><style>/** CSS：Area */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</style></body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
