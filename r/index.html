@@ -46,13 +46,12 @@
                 <h3 class="my-header">{wareki}</h3>
                 <p class="p-yohaku"><code>{wareki}</code> helps you working with documents which include Japanese calender. The packages will be useful when you want to replace Japanese calender in character data into Western calender. It would also useful for modifying orthographical variants in the documents.</p>
                 <h5 class="h-komidashi">Installation</h5>
-                You can install <code>{wareki}</code> from my GitHub Repo.<br>
+                <code>{wareki}</code> is available from my GitHub Repo.<br>
                 <div class="card yohaku-40">
                     <div class="card-body">
                         <pre class="prettyprint linenums lang-r">
  <code>library(devtools)
- devtools::install_github("zakkii11/wareki")
- library(wareki)</code></pre>
+ devtools::install_github("zakkii11/wareki")</code></pre>
                     </div>
                 </div>
 
@@ -61,7 +60,8 @@
                 <div class="card yohaku-40">
                     <div class="card-body">
                         <pre class="prettyprint linenums lang-r">
- <code>wareki("恐らく平成20年生まれの人は、令和元年にはもう11歳になっているのだろう。")</code>
+<code> library(wareki)
+wareki("恐らく平成20年生まれの人は、令和元年にはもう11歳になっているのだろう。")</code>
 <samp>[1] "恐らく2008年生まれの人は、2019年にはもう11歳になっているのだろう。"</samp></pre>
                     </div>
                 </div>
